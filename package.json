@@ -1,0 +1,27 @@
+{
+  "name": "com.mobx.ui",
+  "version": "1.0.0",
+  "displayName": "UI",
+  "description": "UI abstraction system for dynamic element loading, asynchronous transitions, and a stack system for seamless input and layer control.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/mobx-gmbh/com.mobx.ui",
+  "changelogUrl": "https://github.com/mobx-gmbh/com.mobx.ui/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/mobx-gmbh/com.mobx.ui/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.mobx.utilities": "1.0.0",
+    "com.mobx.debug": "1.0.0",
+    "com.mobx.mediator": "1.0.0"
+  },
+  "keywords": [
+    "user interface",
+    "ui",
+    "ui system",
+    "canvas"
+  ],
+  "author": {
+    "name": "MobX",
+    "email": "jonathan@mobx.app",
+    "url": "https://github.com/mobx-gmbh"
+  },
+  "type": "tool"
+}

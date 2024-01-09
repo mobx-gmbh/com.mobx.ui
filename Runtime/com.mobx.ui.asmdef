@@ -1,0 +1,29 @@
+{
+    "name": "com.mobx.ui",
+    "rootNamespace": "MobX.UI",
+    "references": [
+        "GUID:3151dff8a275ccd469930a22ce46353f",
+        "GUID:ffd42dcff86317b4584e4e050d4e924d",
+        "GUID:451c7863c31cdec4fbc99d53f3082b53",
+        "GUID:2b850f3411e9ada4f8d8bad02456c6e6",
+        "GUID:60b317c0e9339ed42a02f571de4723cd",
+        "GUID:4c0692723a5adca4cb25390a9eacf03c",
+        "GUID:06a3c3218ef731343985f180249a8161",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:80ecb87cae9c44d19824e70ea7229748",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:eec0964c48f6f4e40bc3ec2257ccf8c5",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
