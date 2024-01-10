@@ -12,9 +12,6 @@ namespace MobX.UI
 {
     public class Controls : SingletonBehaviour<Controls>, IHideCursor
     {
-        [SerializeField] private EventSystemValueAsset eventSystemValueAsset;
-        [SerializeField] private PlayerInputValueAsset playerInputValueAsset;
-        [SerializeField] private EventSystem eventSystem;
         [SerializeField] private PlayerInput playerInput;
         [SerializeField] private InputActionReference navigateInputAction;
         [SerializeField] private InputActionReference[] mouseInputActions;
@@ -80,8 +77,6 @@ namespace MobX.UI
         protected override void Awake()
         {
             base.Awake();
-            eventSystemValueAsset.Value = eventSystem;
-            playerInputValueAsset.Value = playerInput;
 
             playerInput.onControlsChanged += OnControlsChanged;
             navigateInputAction.action.performed += OnNavigationInput;
