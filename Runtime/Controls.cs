@@ -18,7 +18,7 @@ namespace MobX.UI
 
         [Header("Schemes")]
         [SerializeField] private string[] controllerSchemes;
-        [SerializeField] private HideCursorProvider cursorHide;
+        [SerializeField] private HideCursorLocks cursorHide;
 
         public static bool IsGamepadScheme { get; private set; }
         public static InteractionMode InteractionMode { get; private set; }

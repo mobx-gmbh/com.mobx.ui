@@ -165,6 +165,7 @@ namespace MobX.UI
         protected virtual Sequence OnShowAsync()
         {
             Tween.StopAll(this);
+            Tween.StopAll(CanvasGroup);
             var sequence = Sequence.Create(Tween.Alpha(CanvasGroup, 1, .3f));
             return sequence;
         }
@@ -175,6 +176,7 @@ namespace MobX.UI
         protected virtual Sequence OnHideAsync()
         {
             Tween.StopAll(this);
+            Tween.StopAll(CanvasGroup);
             var sequence = Sequence.Create(Tween.Alpha(CanvasGroup, 0, .3f));
             return sequence;
         }
